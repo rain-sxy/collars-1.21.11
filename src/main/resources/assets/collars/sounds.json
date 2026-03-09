@@ -1,0 +1,12 @@
+{
+  "clicker_on": {
+    "sounds": [
+      "collars:clicker_on"
+    ]
+  },
+  "clicker_off": {
+    "sounds": [
+      "collars:clicker_off"
+    ]
+  }
+}

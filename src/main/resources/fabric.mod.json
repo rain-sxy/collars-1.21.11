@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "collars",
+	"version": "${version}",
+	"name": "collars",
+	"description": "wowie yaoi",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/collars/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.rainsxy.collars.Collars"
+		],
+		"fabric-datagen": [
+			"com.rainsxy.collars.CollarsDataGenerator"
+		],
+		"client": [
+			"com.rainsxy.collars.CollarsClient"
+		]
+	},
+	"mixins": [
+		"collars.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
