@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "L": "minecraft:leather",
+    "W": "minecraft:black_wool"
+  },
+  "pattern": [
+    " W ",
+    "WLW",
+    " G "
+  ],
+  "result": {
+    "count": 1,
+    "id": "collars:collar"
+  }
+}

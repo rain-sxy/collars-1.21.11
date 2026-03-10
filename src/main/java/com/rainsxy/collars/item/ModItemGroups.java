@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.collars.collars"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CLICKER);
+                        entries.add(ModItems.COLLAR);
                     })
                     .build());
 
